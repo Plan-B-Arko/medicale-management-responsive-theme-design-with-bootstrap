@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+padding: 0;
+}
+#faqs
+{
+    background-color:#181833;
+    height: 100%;
+    padding: 50px 50px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+.accord{
+    margin-left: -260px !important;
+}
+
+.background-top{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 19.0625rem;
+    margin-top: 20px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: blue;
+  }
+
+  .search-box{
+    position: absolute;
+    top: 139%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+    box-sizing: border-box;
+    color: #202124;
+    display: block;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 2.5rem 0 4.5rem;
+    width: 40%;
+  }
+
+  .container-fluid-1{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-image: url('../images/faq.png');
+    position: relative; 
+    margin-bottom: 30px;
+    width: 100%;
+   
+}
+.search{
+    z-index: -1;
+}
+.search .fa-search { 
+    position: absolute;
+    top: 137%;
+    left: 31%;
+    font-size: 25px;
+    z-index: 1;
+  }
+
+
+  @media screen and (max-width: 600px){
+    
+    .centered{
+        display: none;
+    }
+
+    .search-box { 
+        position: absolute;
+        top: 118%;
+        left: 50%;
+        font-size: 20px;
+        z-index: 1;
+      }
+      .search{
+        z-index: -1;
+    }
+    .search .fa-search { 
+        position: absolute;
+        top: 117%;
+        left: 39%;
+        font-size: 20px;
+        z-index: 2;
+      }
+      #faqs{
+        background-color:#181833;
+        height: auto;
+        width: 100% !important;
+        padding: 50px 50px;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+    .accord{
+        width: 100%;
+        margin-left: 20px!important;
+    }
+    .top{
+        display: none;
+    }
+    
+  }
